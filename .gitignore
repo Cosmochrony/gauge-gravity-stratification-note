@@ -1,0 +1,10 @@
+out/*.aux
+out/*.bbl
+out/*.blg
+out/*.fls
+out/*.log
+out/*.out
+out/*.toc
+out/*.synctex.gz
+.DS_Store
+.idea/
