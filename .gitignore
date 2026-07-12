@@ -8,3 +8,4 @@ out/*.toc
 out/*.synctex.gz
 .DS_Store
 .idea/
+out/
