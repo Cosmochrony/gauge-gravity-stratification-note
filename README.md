@@ -1,6 +1,6 @@
 This repository contains the source of the **Gauge--Gravity Stratification Presentation Note**
 Cosmochrony paper
-[*The Gauge--Gravity Stratification Sub-Programme — Presentation Note 8*](out/GaugeGravityStratificationNote.pdf).
+*The Gauge--Gravity Stratification Sub-Programme — Presentation Note 8*.
 
 This work is a **structured entry point** to the gauge--gravity stratification sub-programme of the
 Cosmochrony corpus, not a summary of results. It maps the constituent papers, identifies the
