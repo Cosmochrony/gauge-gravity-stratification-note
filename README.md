@@ -67,8 +67,8 @@ Four conceptually distinct stages:
 
 | # | Paper | Stage | Local path |
 |---|-------|-------|------------|
-| 1 | **Q12** (Beau2026q12) — *Yang--Mills from the vertical $a_4$ variation* | Operator extension, $a_4$ derivation, horizontal--vertical decoupling, UV hierarchy | [`../../gauge-structure/q12/`](../../gauge-structure/q12/) |
-| 2 | **Q13** (Beau2026q13) — *Joint Einstein--Yang--Mills system and hierarchy* | Coupled EYM system, $a_6$ cross-coupling, EBI completion, hierarchy ratio | [`../q13/`](../q13/) |
+| 1 | **Q12** (Beau2026q12) — *Yang--Mills from the vertical $a_4$ variation* | Operator extension, $a_4$ derivation, horizontal--vertical decoupling, UV hierarchy | [`../../gauge-structure/q12/`](../../gauge-structure/q12/README.md) |
+| 2 | **Q13** (Beau2026q13) — *Joint Einstein--Yang--Mills system and hierarchy* | Coupled EYM system, $a_6$ cross-coupling, EBI completion, hierarchy ratio | [`../q13/`](../q13/README.md) |
 
 (Q12 is shared with the gauge-structure sub-programme — Note 3 — where it provides the gauge
 group identification; the present note draws on its $a_4$ vertical variation. Q12 therefore
