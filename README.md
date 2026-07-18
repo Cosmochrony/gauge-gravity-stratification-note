@@ -26,9 +26,11 @@ projection respond?"*. This is the **spectral stratification principle**.
 
 The sub-programme closes the bosonic dynamical sector: it does not re-derive the gauge group
 (Note 3) or the metric (Note 2). It derives the *dynamics* of gauge and gravitational fields
-from the spectral structure of the single functional $S_\Pi[g, A]$ and establishes that their
-UV behaviours --- quadratic for gravity, logarithmic for gauge --- are structural consequences
-of the Seeley--DeWitt hierarchy.
+from the spectral structure of the single functional $S_\Pi[g, A]$ and establishes that, within
+a proper-time cutoff, their ultraviolet divergence degrees --- quadratic for gravity,
+logarithmic for gauge --- differ according to the Seeley--DeWitt order at which each sector
+enters. That contrast is scheme-dependent: the zeta-regularized determinant carries no power
+divergences.
 
 ## Logical Chain
 
@@ -36,39 +38,41 @@ $$\underbrace{a_2 \;\to\; G_{\mu\nu}}_{\text{horizontal } \delta_g}
 \;\Big|\;
 \underbrace{a_4 \;\to\; D_\mu F^{a\mu\nu} = 0}_{\text{vertical } \delta_A}
 \;\Big|\;
-\underbrace{a_6 \;\to\; R_{\mu\nu\rho\sigma}F^{\mu\nu}F^{\rho\sigma}}_{\text{mixed (structural)}}$$
+\underbrace{a_6 \;\to\; \text{mixed invariants}}_{\text{spanning list only}}$$
 
 from the single functional
 $S_\Pi[g, A] = \tfrac{1}{2}\log\det' A_{g, A}$.
 
-Four conceptually distinct stages:
+Three conceptually distinct stages:
 
 1. **Extension of the operator to the gauge sector** (Q12) — the Laplacian
    $A_g = -\nabla_g^2$ is extended to $A_{g, A} = -(\nabla^A)^2 + E$ on the associated
-   vector bundle of $P_{G_\Pi}(M, G_\Pi)$. The horizontal--vertical decoupling Lemma 1 of
-   Q12 guarantees that the $a_2$ Einstein and $a_4$ Yang--Mills sectors remain independent
-   at their respective leading orders.
-2. **Yang--Mills from vertical $a_4$ variation** (Q12) — the $a_4$ coefficient of
-   $A_{g, A}$ contains
-   $\frac{1}{16\pi^2}\int \frac{1}{12}\mathrm{Tr}(F_{\mu\nu}F^{\mu\nu})\sqrt{g}\,d^4x$;
-   the vertical variation $\delta_A S_\Pi = 0$ yields $D_\mu F^{a\mu\nu} = 0$.
-3. **Coupled Einstein--Yang--Mills system** (Q13) — the joint variation
-   $\delta_{g, A}\,S_\Pi = 0$ yields
-   $G_{\mu\nu} = 8\pi G_N T^{\mathrm{YM}}_{\mu\nu}$,
-   $D_\mu F^{a\mu\nu} = 0$, with coupling $8\pi G_N = c_{\mathrm{YM}} / c_{\mathrm{EH}}$
-   fixed by the Seeley--DeWitt expansion alone.
-4. **Structural hierarchy** (Q13) — Newton's constant $G_N^{-1} \sim \ell_{\mathrm{sp}}^{-2}$
-   (quadratic UV) and the gauge coupling $g_{\mathrm{YM}}^{-2} \sim \log(\Lambda/\mu)$
-   (logarithmic UV) share the same cutoff $\ell_{\mathrm{sp}}$. The hierarchy ratio
-   $G_N g_{\mathrm{YM}}^2 \sim \ell_{\mathrm{sp}}^2 / \dim V \cdot [\log(\Lambda/\mu)]^{-1} \ll 1$
-   is a structural consequence of the Seeley--DeWitt expansion, not a fine-tuned input.
+   vector bundle of $P_{G_\Pi}(M, G_\Pi)$. Lemma 1 of Q12 gives the fixed-metric isolation of
+   the gauge sector: under minimal coupling $a_2$ does not depend on $A$. It does **not** give
+   full horizontal--vertical decoupling — the metric variation of $F^2$ is the $a_4$-order
+   back-reaction $T^{\mathrm{YM}}$.
+2. **Yang--Mills from the vertical $a_4$ variation** (Q12) — isolating the gauge component
+   $\Omega^{\mathrm{gauge}}_{\mu\nu} = F_{\mu\nu}$ of the total bundle curvature, the $a_4$
+   coefficient contains $\int \frac{1}{12}\mathrm{tr}_\rho(F_{\mu\nu}F^{\mu\nu})\sqrt{g}\,d^4x$,
+   the overall $(4\pi)^{-2}$ being carried once by the heat-kernel prefactor; the vertical
+   variation at fixed metric yields $D_\mu F^{a\mu\nu} = 0$. The induced logarithmic running of
+   $g_{\mathrm{YM}}^{-2}$ has coefficient $I_\rho/(12\cdot16\pi^2)$ — not universal.
+3. **Conditional Einstein--Yang--Mills system** (Q13) — varying a single matched renormalized
+   local action gives
+   $G_{\mu\nu} + \Lambda_{\mathrm{eff}} g_{\mu\nu} = 8\pi G_N T^{\mathrm{YM}}_{\mu\nu}$ and
+   $D_\mu F^{a\mu\nu} = 0$, the metric variation of the gauge kinetic term being
+   $2\tau_{\mu\nu}$. Since $\mathrm{tr}_\rho(F^2) = I_\rho F^a F^a$, canonical matching fixes
+   $c_{\mathrm{EH}} = 1/(16\pi G_N)$ and $c_F I_\rho = 1/(4 g_{\mathrm{YM}}^2)$, so
+   $8\pi G_N = 1/(2 c_{\mathrm{EH}})$. $G_N$, $g_{\mathrm{YM}}$ and $\Lambda_{\mathrm{ren}}$ are
+   independent renormalized matching data, so the ratio $G_N g_{\mathrm{YM}}^2$ is not an
+   output. The derivations are Euclidean.
 
 ## Constituent Papers
 
 | # | Paper | Stage | Local path |
 |---|-------|-------|------------|
 | 1 | **Q12** (Beau2026q12) — *Yang--Mills from the vertical $a_4$ variation* | Operator extension, $a_4$ derivation, horizontal--vertical decoupling, UV hierarchy | [`../../gauge-structure/q12/`](../../gauge-structure/q12/README.md) |
-| 2 | **Q13** (Beau2026q13) — *Joint Einstein--Yang--Mills system and hierarchy* | Coupled EYM system, $a_6$ cross-coupling, EBI completion, hierarchy ratio | [`../q13/`](../q13/README.md) |
+| 2 | **Q13** (Beau2026q13) — *A conditional Einstein--Yang--Mills system* | Conditional coupled EYM system, matching normalisation, $a_6$ spanning list | [`../q13/`](../q13/README.md) |
 
 (Q12 is shared with the gauge-structure sub-programme — Note 3 — where it provides the gauge
 group identification; the present note draws on its $a_4$ vertical variation. Q12 therefore
@@ -76,31 +80,31 @@ remains located under `gauge-structure/`.)
 
 ## Status of Results
 
-**Proved (unconditional):**
-- $a_4 \supset \frac{1}{12}\mathrm{Tr}(F_{\mu\nu}F^{\mu\nu})$ (Q12 §4, standard heat-kernel
-  result on $A_{g, A}$).
-- Horizontal--vertical decoupling (Q12 Lemma 1): Einstein $a_2$ and Yang--Mills $a_4$ sectors
-  are independent at their leading orders, from the principal-bundle structure.
+**Proved (theorem-level):**
+- $a_4 \supset \frac{1}{12}\mathrm{tr}_\rho(F_{\mu\nu}F^{\mu\nu})$ (Q12, standard heat-kernel
+  result on $A_{g, A}$, gauge component isolated).
+- Fixed-metric isolation of the gauge sector (Q12 Lemma 1): under minimal coupling $a_2$ is
+  independent of $A$. Full horizontal--vertical decoupling does **not** hold.
+- Metric variation of the gauge kinetic term $= 2\tau_{\mu\nu}$ (Q13 Lemma).
 
 **Structural:**
-- $\Omega_{\mu\nu} = F_{\mu\nu}$ on the admissible bundle (Q12).
-- Yang--Mills equations $D_\mu F^{a\mu\nu} = 0$ from $\delta_A S_\Pi = 0$ (Q12 Theorem 1,
-  given $G_\Pi$).
-- UV hierarchy $G_N^{-1} \sim \ell_{\mathrm{sp}}^{-2}$ vs.\
-  $g_{\mathrm{YM}}^{-2} \sim \log(\Lambda/\mu)$ (Q12 §6).
-- Coupled Einstein--Yang--Mills system (Q13 Theorem 3.2),
-  $8\pi G_N = c_{\mathrm{YM}} / c_{\mathrm{EH}}$.
-- $a_6$ gauge--gravity cross-coupling $R_{\mu\nu\rho\sigma}F^{\mu\nu}F^{\rho\sigma}$
-  (Q13 Theorem 4.1) --- normalisation open.
-- Structural hierarchy ratio $G_N g_{\mathrm{YM}}^2 \ll 1$ (Q13 Proposition 6.1) without
-  fine-tuning.
-- Spectral stratification principle $a_2 \to$ gravity, $a_4 \to$ gauge, $a_6 \to$ mixed
-  (Q12/Q13).
+- $\Omega^{\mathrm{gauge}}_{\mu\nu} = F_{\mu\nu}$ on the admissible bundle (Q12).
+- Yang--Mills equations $D_\mu F^{a\mu\nu} = 0$ from the fixed-metric $\delta_A S_\Pi = 0$
+  (Q12 Theorem 1, given $G_\Pi$).
+- Conditional coupled Einstein--Yang--Mills system (Q13 Theorem), with
+  $8\pi G_N = 1/(2 c_{\mathrm{EH}})$ and $c_F I_\rho = 1/(4 g_{\mathrm{YM}}^2)$.
+- $a_6$ spanning list of invariants, modulo integrations by parts and Bianchi identities
+  (Q13) --- not a basis, no unique cross-term, coefficients undetermined.
+- Difference in ultraviolet divergence degree, quadratic at $a_2$ and logarithmic at $a_4$
+  (Q12/Q13) --- within a proper-time cutoff, hence scheme-dependent.
 
-**Conditional on [H-ext]:**
-- Eddington--Born--Infeld joint completion $\mathcal{S}^{\mathrm{EBI}} \propto \int[\sqrt{-\det(g + \ell_{\mathrm{sp}}^2 R_{\mu\nu} + \ell_{\mathrm{sp}}^2 F_{\mu\nu})} - \sqrt{-g}]$
-  (Q13 Theorem 5.3); inherits the [H-ext] conditionality from the Note 4 gravitational
-  completion.
+**Matching data (not predicted):**
+- $G_N$, $g_{\mathrm{YM}}$, $\Lambda_{\mathrm{ren}}$ and the dimension-six coefficients are
+  independent renormalization data; no numerical value for $G_N g_{\mathrm{YM}}^2$ follows.
+
+**Interpretive:**
+- The spectral stratification $a_2 \to$ gravity, $a_4 \to$ gauge is an organising reading,
+  not a theorem.
 
 The $\mathrm{SU}(3) \times \mathrm{SU}(2) \times \mathrm{U}(1)$ gauge group is available as
 **unconditional input** to the stratification chain per the current programme status (O31
@@ -109,12 +113,14 @@ of Q12 therefore holds unconditionally for the full Standard Model gauge group.
 
 ## Open Deliverables
 
-1. **$a_6$ coupling normalisation.** Deriving the normalisation coefficient of the $a_6$
-   cross-coupling would give a quantitative prediction for the leading gauge--gravity mixing
-   at high spectral order and would constrain the EBI completion.
-2. **Derivation of [H-ext].** Promoting Q13 Theorem 5.3 to an unconditional theorem. The
-   structural mechanism is identified (BI parity at the scalar and tensorial levels); the
-   admissible coherence extensivity step is the analytical gap.
+1. **Quantitative $a_6$ coefficients.** Reducing the spanning list to a minimal independent
+   set and computing the coefficients for $A_{g, A}$ would turn the inventory into a
+   quantitative statement about the leading gauge--gravity mixing.
+2. **Status of the matching data.** Determining whether the admissibility structure constrains
+   any combination of $G_N$, $g_{\mathrm{YM}}$ and $\Lambda_{\mathrm{ren}}$ — in particular the
+   ratio $G_N g_{\mathrm{YM}}^2$ — would be the natural way to recover predictive content that
+   the spectral expansion alone does not provide. A possible non-linear completion of the joint
+   functional, and the Lorentzian continuation of the gauge sector, are open on the same footing.
 3. **Full coupled equations with matter.** The coupled system
    $G_{\mu\nu} = 8\pi G_N(T^{\mathrm{YM}}_{\mu\nu} + T^{\mathrm{ferm}}_{\mu\nu})$,
    $D_\mu F^{a\mu\nu} = J^{a\nu}$ with explicit fermionic matter from Note 6 (Q14) requires
