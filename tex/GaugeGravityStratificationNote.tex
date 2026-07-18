@@ -165,7 +165,8 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
       \item Effective four-dimensional base manifold (Note~2, Q5b--Q11); the heat-kernel
       expansion is performed on its Euclidean section, the Lorentzian metric
       $g^{\mu\nu} = 2\eta^{\mu\nu}$ being recovered only after a continuation.
-      \item Spectral length scale $\lsp$ (Branch~I, BornInfeld~\cite{Beau2026c}).
+      \item Renormalized matching data --- $\GN$, $\gYM$ and the cosmological coefficient ---
+      supplied from outside the spectral expansion.
       \item Fixed-metric isolation of the gauge sector (Q12~\cite{Beau2026q12}, Lemma~1): under
       minimal coupling $a_2$ is independent of $A$, so the vertical variation at fixed metric
       isolates the Yang--Mills sector. Full horizontal--vertical decoupling does \emph{not} hold.
@@ -218,9 +219,9 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
       $\int \tfrac{1}{12}\,\mathrm{tr}_\rho(F_{\mu\nu}F^{\mu\nu})\sqrt{g}\,d^4x$,
       the overall $(4\pi)^{-2}$ being carried once by the heat-kernel prefactor.
       The vertical variation $\delta_A \SPI = 0$ at fixed metric yields $D_\mu F^{a\mu\nu} = 0$.
-      The coefficient of the induced logarithmic running of $\gYM^{-2}$ is
-      $\Irho/(12\cdot16\pi^2)$: it depends on the fibre representation through the Dynkin index
-      and is therefore not universal.
+      The coefficient of the induced logarithmic running of $\gYM^{-2}$ is proportional to the
+      Dynkin index $\Irho$ of the fibre representation and is therefore not universal; its
+      absolute normalisation is fixed in Q12 and is not restated here.
 
       \item \textit{Conditional Einstein--Yang--Mills system (Q13).}
       Varying a single matched renormalized local action with respect to $g$ and to $A$ gives
@@ -258,7 +259,7 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
       overall
       $(4\pi)^{-2}$ sits once in the heat-kernel prefactor (standard heat-kernel result);
       (ii)~the induced logarithmic running of $\gYM^{-2}$ has coefficient
-      $\Irho/(12\cdot16\pi^2)$, hence is not universal, and a logarithmic divergence alone does
+      proportional to $\Irho$, hence not universal, and a logarithmic divergence alone does
       not establish asymptotic freedom;
       (iii)~the vertical variation $\delta\SPI/\delta A^a_\nu = 0$ at fixed metric yields
       $D_\mu F^{a\mu\nu} = 0$ in the current-free sector.
@@ -399,13 +400,11 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
       $A_{g,A}$ is elliptic; the Lorentzian metric $g^{\mu\nu} = 2\eta^{\mu\nu}$ of Note~2 is
       recovered only after a continuation, which is not performed here.
 
-      \item \textbf{Spectral scale $\lsp$ and BI saturation constant $\cchi$} (Branch~I):
-      available as structural input; note that no non-linear completion of the joint functional is
-      asserted in this sub-programme.
-
       \item \textbf{Renormalized matching data} ($\GN$, $\gYM$, $\Lambda_{\mathrm{ren}}$, and the
       dimension-six coefficients): supplied from outside the spectral expansion, which fixes only
       the degree of ultraviolet divergence of each coefficient.
+      No Born--Infeld input is required: the sub-programme asserts no non-linear completion of the
+      joint functional.
     \end{enumerate}
 
   \section{Outputs to Downstream Branches}
@@ -456,9 +455,10 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
       \label{sec:structural}
 
       \begin{enumerate}
-        \item \textit{$\Omega_{\mu\nu} = F_{\mu\nu}$ on the admissible bundle} (Q12):
-        the curvature two-form of the admissible connection is identified with the gauge
-        field strength; structural identification, not a new derivation.
+        \item \textit{$\Omega^{\mathrm{gauge}}_{\mu\nu} = F_{\mu\nu}$ on the admissible bundle}
+        (Q12): the gauge component of the total bundle curvature is identified with the gauge
+        field strength, the remaining (spin-connection) component feeding the purely
+        gravitational invariants; structural identification, not a new derivation.
 
         \item \textit{Yang--Mills equations from vertical variation} (Q12 Theorem~1):
         $D_\mu F^{a\mu\nu} = 0$ is derived from $\delta_A \SPI = 0$; conditional on $\Gpi$
@@ -488,7 +488,7 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
 
       \begin{enumerate}
         \item \textit{Non-linear completion of the joint functional.}
-        Whether the admissibility saturation bound $\cchi$ induces a well-defined non-linear
+        Whether the admissibility saturation bound $\cchi$~\cite{Beau2026c} induces a well-defined non-linear
         completion of the joint functional is open. Any construction must be checked for
         dimensional homogeneity of its matrix argument and for the semidefinite sign structure of
         $F_{\mu\rho}F^{\rho}{}_{\nu}$, which constrain the admissible determinant forms severely.

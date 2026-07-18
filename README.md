@@ -24,7 +24,7 @@ connection) --- at different Seeley--DeWitt orders. The classical question *"wha
 unifies gravity and gauge?"* is replaced by *"at what spectral order does the admissible
 projection respond?"*. This is the **spectral stratification principle**.
 
-The sub-programme closes the bosonic dynamical sector: it does not re-derive the gauge group
+The sub-programme closes the dynamical stratification: it does not re-derive the gauge group
 (Note 3) or the metric (Note 2). It derives the *dynamics* of gauge and gravitational fields
 from the spectral structure of the single functional $S_\Pi[g, A]$ and establishes that, within
 a proper-time cutoff, their ultraviolet divergence degrees --- quadratic for gravity,
@@ -56,7 +56,8 @@ Three conceptually distinct stages:
    coefficient contains $\int \frac{1}{12}\mathrm{tr}_\rho(F_{\mu\nu}F^{\mu\nu})\sqrt{g}\,d^4x$,
    the overall $(4\pi)^{-2}$ being carried once by the heat-kernel prefactor; the vertical
    variation at fixed metric yields $D_\mu F^{a\mu\nu} = 0$. The induced logarithmic running of
-   $g_{\mathrm{YM}}^{-2}$ has coefficient $I_\rho/(12\cdot16\pi^2)$ — not universal.
+   $g_{\mathrm{YM}}^{-2}$ has a coefficient proportional to the Dynkin index $I_\rho$ — not
+   universal; its absolute normalisation is fixed in Q12.
 3. **Conditional Einstein--Yang--Mills system** (Q13) — varying a single matched renormalized
    local action gives
    $G_{\mu\nu} + \Lambda_{\mathrm{eff}} g_{\mu\nu} = 8\pi G_N T^{\mathrm{YM}}_{\mu\nu}$ and
@@ -74,9 +75,9 @@ Three conceptually distinct stages:
 | 1 | **Q12** (Beau2026q12) — *Yang--Mills from the vertical $a_4$ variation* | Operator extension, $a_4$ derivation, fixed-metric isolation of the gauge sector | [`../../gauge-structure/q12/`](../../gauge-structure/q12/README.md) |
 | 2 | **Q13** (Beau2026q13) — *A conditional Einstein--Yang--Mills system* | Conditional coupled EYM system, matching normalisation, $a_6$ spanning list | [`../q13/`](../q13/README.md) |
 
-(Q12 is shared with the gauge-structure sub-programme — Note 3 — where it provides the gauge
-group identification; the present note draws on its $a_4$ vertical variation. Q12 therefore
-remains located under `gauge-structure/`.)
+(Q12 is shared with the gauge-structure sub-programme — Note 3 — which supplies the gauge group
+identification that Q12 takes as input; the present note draws on Q12's $a_4$ vertical variation.
+Q12 therefore remains located under `gauge-structure/`.)
 
 ## Status of Results
 
