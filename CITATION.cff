@@ -7,7 +7,7 @@ authors:
     given-names: "Jérôme"
 repository-code: "https://github.com/Cosmochrony/gauge-gravity-stratification-note"
 url: "https://cosmochrony.org/science/gauge-gravity-stratification/"
-version: "1.0.1"
+version: "1.2"
 doi: "10.5281/zenodo.20563349"
 license: "CC-BY-4.0"
 preferred-citation:

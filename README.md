@@ -38,7 +38,7 @@ $$\underbrace{a_2 \;\to\; G_{\mu\nu}}_{\text{horizontal } \delta_g}
 \;\Big|\;
 \underbrace{a_4 \;\to\; D_\mu F^{a\mu\nu} = 0}_{\text{vertical } \delta_A}
 \;\Big|\;
-\underbrace{a_6 \;\to\; \text{mixed invariants}}_{\text{spanning list only}}$$
+\underbrace{a_6 \;\to\; \text{dimension-six invariants}}_{\text{spanning list only}}$$
 
 from the single functional
 $S_\Pi[g, A] = \tfrac{1}{2}\log\det' A_{g, A}$.
@@ -71,7 +71,7 @@ Three conceptually distinct stages:
 
 | # | Paper | Stage | Local path |
 |---|-------|-------|------------|
-| 1 | **Q12** (Beau2026q12) — *Yang--Mills from the vertical $a_4$ variation* | Operator extension, $a_4$ derivation, horizontal--vertical decoupling, UV hierarchy | [`../../gauge-structure/q12/`](../../gauge-structure/q12/README.md) |
+| 1 | **Q12** (Beau2026q12) — *Yang--Mills from the vertical $a_4$ variation* | Operator extension, $a_4$ derivation, fixed-metric isolation of the gauge sector | [`../../gauge-structure/q12/`](../../gauge-structure/q12/README.md) |
 | 2 | **Q13** (Beau2026q13) — *A conditional Einstein--Yang--Mills system* | Conditional coupled EYM system, matching normalisation, $a_6$ spanning list | [`../q13/`](../q13/README.md) |
 
 (Q12 is shared with the gauge-structure sub-programme — Note 3 — where it provides the gauge
