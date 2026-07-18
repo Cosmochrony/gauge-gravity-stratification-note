@@ -57,7 +57,7 @@ Three conceptually distinct stages:
    the overall $(4\pi)^{-2}$ being carried once by the heat-kernel prefactor; the vertical
    variation at fixed metric yields $D_\mu F^{a\mu\nu} = 0$. The induced logarithmic running of
    $g_{\mathrm{YM}}^{-2}$ has a coefficient proportional to the Dynkin index $I_\rho$ — not
-   universal; its absolute normalisation is fixed in Q12.
+   universal.
 3. **Conditional Einstein--Yang--Mills system** (Q13) — varying a single matched renormalized
    local action gives
    $G_{\mu\nu} + \Lambda_{\mathrm{eff}} g_{\mu\nu} = 8\pi G_N T^{\mathrm{YM}}_{\mu\nu}$ and
