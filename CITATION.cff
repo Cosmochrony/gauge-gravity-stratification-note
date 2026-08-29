@@ -1,18 +1,18 @@
 cff-version: 1.2.0
 message: "If you cite this work, please use the metadata from this file."
-title: "The Gauge–Gravity Stratification Sub-Programme Presentation Note 8"
+title: "The Gauge–Gravity Stratification Sub-Programme (Presentation Note 8)"
 type: software
 authors:
   - family-names: "Beau"
     given-names: "Jérôme"
 repository-code: "https://github.com/Cosmochrony/gauge-gravity-stratification-note"
 url: "https://cosmochrony.org/science/gauge-gravity-stratification/"
-version: "1.2"
+version: "2.0"
 doi: "10.5281/zenodo.20563349"
 license: "CC-BY-4.0"
 preferred-citation:
   type: article
-  title: "The Gauge–Gravity Stratification Sub-Programme Presentation Note 8"
+  title: "The Gauge–Gravity Stratification Sub-Programme (Presentation Note 8)"
   authors:
     - family-names: "Beau"
       given-names: "Jérôme"
