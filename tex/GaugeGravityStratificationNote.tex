@@ -106,9 +106,12 @@
     \noindent\textit{Central question.}
     The spectral gravity sub-programme (Note~4~\cite{Beau2026sgnote}) derives the Einstein tensor as the $a_2$
     infrared-dominant response of the horizontal metric variation of $\SPI[g]$.
-    The gauge structure sub-programme (Note~3) identifies the gauge group
-    $\Gpi = \SU(3) \times \SU(2) \times \UU(1)$ and constructs the admissible principal
-    bundle $P_{\Gpi}(M, \Gpi)$.
+    The gauge structure sub-programme (Note~3~\cite{Beau2026gsnote}) constructs the admissible
+    principal bundle $P_{\Gpi}(M, \Gpi)$ for a compact structure group $\Gpi$.
+    It does \emph{not} identify that group: its version~2.0 states that the sub-programme supplies
+    no gauge-group identification, and O31~\cite{Beau2026a35} is a withdrawal notice covering every
+    derivation of a gauge factor and of the composite
+    $\SU(3) \times \SU(2) \times \UU(1)$.
     \textit{Does the same functional $\SPI[g,A]$, extended to include the admissible gauge
     connection, also produce Yang--Mills dynamics, and if so, at what spectral order?}
 
@@ -161,7 +164,8 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
       horizontal metric variation $\to$ Einstein tensor (Note~4, Gravity~\cite{Beau2026h}).
       \item Admissible principal bundle $P_{\Gpi}(M, \Gpi)$ and gauge connection $A$
       (Note~3, Q6a~\cite{Beau2026q6a}).
-      \item Gauge group $\Gpi = \SU(3) \times \SU(2) \times \UU(1)$ (Note~3).
+      \item A compact structure group $\Gpi$, supplied rather than identified
+      (Note~3~\cite{Beau2026gsnote}; see Section~\ref{sec:status}).
       \item Effective four-dimensional base manifold (Note~2, Q5b--Q11); the heat-kernel
       expansion is performed on its Euclidean section, the Lorentzian metric
       $g^{\mu\nu} = 2\eta^{\mu\nu}$ being recovered only after a continuation.
@@ -174,7 +178,8 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
 
     \noindent Outputs feed into:
     \begin{itemize}
-      \item Note~6 (Fermionic Matter): Q13 is the direct predecessor of Q14; the $a_4$ structure
+      \item Note~6 (Fermionic Matter): Q13 is the direct predecessor of Q14~\cite{Beau2026q14};
+      the $a_4$ structure
       provides the spectral scaffold for the projected Dirac operator.
       \item Phenomenological applications: gravitational-wave phenomenology, once the
       gauge sector has been continued to Lorentzian signature.
@@ -276,14 +281,16 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
 
       \textit{Conditionalities} (§7).
       The $a_4$ derivation of Yang--Mills is unconditional given any compact gauge group $\Gpi$.
-      The identification $\Gpi = \SU(3) \times \SU(2) \times \UU(1)$ inherits the status of
-      $[\mathrm{H\text{-}color}]$ from Note~3: unconditional for the colour-adapted graph,
-      and, for the standard graph, at the
-      $[\mathrm{H\text{-}color}]_{\mathrm{pointwise}}$ level.
-      Per the current programme status (O31 Prop.~4.23, via the single-frequency BI fingerprint
-      argument), $[\mathrm{H\text{-}color}]$ is exact pointwise on the standard graph at finite
-      $q$, so $\Gpi = \SU(3) \times \SU(2) \times \UU(1)$ is available as an unconditional
-      input to the stratification chain.
+      That is this sub-programme's own result, and nothing below touches it.
+      No identification of $\Gpi$ with a specific compact group is available.
+      O31~\cite{Beau2026a35} is a withdrawal notice: among the results it withdraws are the
+      co-admissibility of the individual capacity profiles --- the content of
+      $[\mathrm{H\text{-}color}]_{\mathrm{pointwise}}$ and of its Proposition~4.23 --- the
+      uniqueness of $\SU(3)$ among connected compact subgroups acting irreducibly on
+      $\mathbb{C}^3$, and every derivation of a gauge factor and of the composite.
+      Note~3 version~2.0~\cite{Beau2026gsnote} accordingly states that the gauge-structure
+      sub-programme identifies no gauge group.
+      $\Gpi$ is therefore a supplied input to the stratification chain, not an identified one.
 
       \textit{Conceptual consequence} (§7.5).
       Gravity and gauge dynamics are separated by geometric direction (horizontal vs.\ vertical
@@ -385,11 +392,13 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
       the horizontal variation and the $a_2$ coefficient are established prerequisites;
       Q12 builds on them by extending the functional to $\SPI[g,A]$.
 
-      \item \textbf{Admissible principal bundle and gauge group}
-      (Note~3, Q6a~\cite{Beau2026q6a}).
+      \item \textbf{Admissible principal bundle and supplied structure group}
+      (Note~3~\cite{Beau2026gsnote}, Q6a~\cite{Beau2026q6a}).
       The bundle $P_{\Gpi}(M,\Gpi)$, together with the connection $A$, defines the
       operator $A_{g,A}$.
       Without Note~3, the extension from $A_g$ to $A_{g,A}$ has no canonical definition.
+      What Note~3 supplies is the bundle construction for a compact $\Gpi$, not the identity of
+      $\Gpi$.
 
       \item \textbf{Effective four-dimensional base manifold} (Note~2, Q5b--Q11):
       the effective spacetime provides the base on which the operator $A_{g,A}$ is defined.
@@ -422,7 +431,7 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
         $a_6$ spanning list (coefficients undetermined) & Future precision tests & S \\
         Divergence-degree separation $a_2$ vs.\ $a_4$ & Structural reading & S \\
         Spectral suggestion: fermions at a dedicated level & Note~6 (Q14) & S \\
-        $\Gpi = \SU(3)\times\SU(2)\times\UU(1)$ unconditional & Q12, Q13 & P (O31 Prop.~4.23) \\
+        Identification of $\Gpi$ with a specific compact group & --- & not established \\
         \bottomrule
       \end{tabular}
     \end{table}
@@ -504,24 +513,25 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
         The derivations are Euclidean; the continuation, including the relative sign between
         curvature and source and the positivity of the gauge energy density, is open.
 
-        \item \textit{$\SU(3)$ Yang--Mills uniqueness.}
+        \item \textit{Internal structure of a non-abelian sector.}
         The $a_4$ derivation holds for any compact $\Gpi$.
-        The internal structure of the $\SU(3)$ sector --- structure constants, covariant derivative
-        from the colour triplet data --- requires a dedicated derivation not yet present.
+        The internal structure of a particular non-abelian sector --- its structure constants and
+        covariant derivative --- would require a dedicated derivation, and none is present.
 
         \item \textit{Coupled field equations with matter currents.}
         The Yang--Mills equations derived here are in the current-free sector.
         The full equations $D_\mu F^{a\mu\nu} = J^{a\nu}$ with fermionic matter currents from
         Note~6 are open.
 
-        \item \textit{$\SU(3)$ sector: current status.}
-        The $\SU(3)$ sector is inherited from the gauge-structure sub-programme (Note~3).
-        Per the current programme status (O31 Prop.~4.23, single-frequency BI fingerprint),
-        $[\mathrm{H\text{-}color}]$ is exact pointwise on the standard graph at finite $q$,
-        making $\Gpi = \SU(3) \times \SU(2) \times \UU(1)$ an unconditional input to the
-        stratification chain.
-        The $a_4$ Yang--Mills derivation of Q12 therefore holds unconditionally for the full
-        Standard Model gauge group.
+        \item \textit{The gauge-group input: current status.}
+        $\Gpi$ is supplied, not identified.
+        Note~3 version~2.0~\cite{Beau2026gsnote} states that the gauge-structure sub-programme
+        identifies no gauge group, and O31~\cite{Beau2026a35} is a withdrawal notice covering
+        $[\mathrm{H\text{-}color}]_{\mathrm{pointwise}}$, its Proposition~4.23, the uniqueness of
+        $\SU(3)$, and every derivation of a gauge factor and of the composite.
+        The $a_4$ Yang--Mills derivation of Q12~\cite{Beau2026q12} therefore holds for any
+        supplied compact $\Gpi$, and \emph{not} for an identified Standard Model gauge group:
+        the application of this sub-programme's dynamics to that group is not available.
       \end{enumerate}
 
   \section{Open Deliverables}

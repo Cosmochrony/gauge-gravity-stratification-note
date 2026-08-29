@@ -1,8 +1,8 @@
-This repository contains the source of the **Gauge--Gravity Stratification Presentation Note**
+This repository contains the source of the **Gauge–Gravity Stratification Presentation Note**
 Cosmochrony paper
-*The Gauge--Gravity Stratification Sub-Programme — Presentation Note 8*.
+*The Gauge–Gravity Stratification Sub-Programme (Presentation Note 8)*.
 
-This work is a **structured entry point** to the gauge--gravity stratification sub-programme of the
+This work is a **structured entry point** to the gauge–gravity stratification sub-programme of the
 Cosmochrony corpus, not a summary of results. It maps the constituent papers, identifies the
 spectral stratification chain from the same admissible functional, records the status of every
 result as proved, structural, or open, and states the remaining open deliverables.
@@ -11,8 +11,7 @@ result as proved, structural, or open, and states the remaining open deliverable
 
 The spectral gravity sub-programme (Note 4) derives the Einstein tensor as the $a_2$
 infrared-dominant response of the horizontal metric variation of $S_\Pi[g]$.
-The gauge structure sub-programme (Note 3) identifies the gauge group
-$G_\Pi = \mathrm{SU}(3) \times \mathrm{SU}(2) \times \mathrm{U}(1)$ and constructs the
+The gauge structure sub-programme (Note 3) constructs, for a compact structure group $G_\Pi$, the
 admissible principal bundle $P_{G_\Pi}(M, G_\Pi)$.
 
 > Does the same functional $S_\Pi[g, A]$, extended to include the admissible gauge connection,
@@ -75,7 +74,7 @@ Three conceptually distinct stages:
 | 1 | **Q12** (Beau2026q12) — *Yang--Mills from the vertical $a_4$ variation* | Operator extension, $a_4$ derivation, fixed-metric isolation of the gauge sector | [`../../gauge-structure/q12/`](../../gauge-structure/q12/README.md) |
 | 2 | **Q13** (Beau2026q13) — *A conditional Einstein--Yang--Mills system* | Conditional coupled EYM system, matching normalisation, $a_6$ spanning list | [`../q13/`](../q13/README.md) |
 
-(Q12 is shared with the gauge-structure sub-programme — Note 3 — which supplies the gauge group
+(Q12 is shared with the gauge-structure sub-programme — Note 3 — which supplies the bundle
 identification that Q12 takes as input; the present note draws on Q12's $a_4$ vertical variation.
 Q12 therefore remains located under `gauge-structure/`.)
 
@@ -107,16 +106,21 @@ Q12 therefore remains located under `gauge-structure/`.)
 - The spectral stratification $a_2 \to$ gravity, $a_4 \to$ gauge is an organising reading,
   not a theorem.
 
-The $\mathrm{SU}(3) \times \mathrm{SU}(2) \times \mathrm{U}(1)$ gauge group is available as
-**unconditional input** to the stratification chain per the current programme status (O31
-Proposition 4.23, single-frequency BI fingerprint argument); the $a_4$ Yang--Mills derivation
-of Q12 therefore holds unconditionally for the full Standard Model gauge group.
+$G_\Pi$ is a **supplied** input to the stratification chain, not an identified one. Note 3
+version 2.0 states that the gauge-structure sub-programme identifies no gauge group, and O31 is a
+withdrawal notice covering $[H\text{-color}]_{\mathrm{pointwise}}$, its Proposition 4.23, the
+uniqueness of $\mathrm{SU}(3)$, and every derivation of a gauge factor and of the composite. The
+$a_4$ Yang--Mills derivation of Q12 therefore holds for **any supplied compact $G_\Pi$**, and not
+for an identified Standard Model gauge group: that application is not available.
+
+The sub-programme's own result — $a_4 \to$ Yang--Mills for any compact gauge group supplied — is
+unaffected.
 
 ## Open Deliverables
 
 1. **Quantitative $a_6$ coefficients.** Reducing the spanning list to a minimal independent
    set and computing the coefficients for $A_{g, A}$ would turn the inventory into a
-   quantitative statement about the leading gauge--gravity mixing.
+   quantitative statement about the leading gauge–gravity mixing.
 2. **Status of the matching data.** Determining whether the admissibility structure constrains
    any combination of $G_N$, $g_{\mathrm{YM}}$ and $\Lambda_{\mathrm{ren}}$ — in particular the
    ratio $G_N g_{\mathrm{YM}}^2$ — would be the natural way to recover predictive content that
