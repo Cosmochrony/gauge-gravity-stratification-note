@@ -9,23 +9,27 @@ result as proved, structural, or open, and states the remaining open deliverable
 
 ## Central Question
 
-The spectral gravity sub-programme (Note 4) derives the Einstein tensor as the $a_2$
-infrared-dominant response of the horizontal metric variation of $S_\Pi[g]$.
+The spectral gravity sub-programme (Note 4) states, on a supplied Riemannian metric, the conditions under
+which the Einstein tensor is the dominant local response of the renormalized horizontal metric variation of
+$S_\Pi[g]$: the $a_2$ term of a proper-time cutoff, a non-zero Einstein coefficient fixed by renormalization
+matching, and small curvature relative to the renormalized higher-derivative scale.
 The gauge structure sub-programme (Note 3) constructs, for a compact structure group $G_\Pi$, the
 admissible principal bundle $P_{G_\Pi}(M, G_\Pi)$.
 
 > Does the same functional $S_\Pi[g, A]$, extended to include the admissible gauge connection,
 > also produce Yang--Mills dynamics, and if so, at what spectral order?
 
-The answer is **yes**, and the order is $a_4$. Gravity and gauge dynamics arise from the same
+On a supplied base metric and a supplied compact structure group, the answer is **yes**, and the order is
+$a_4$. Gauge dynamics and, under the matching conditions of Note 4, the Einstein sector arise from the same
 functional by varying in orthogonal directions --- horizontal (metric) and vertical (gauge
 connection) --- at different Seeley--DeWitt orders. The classical question *"what symmetry
 unifies gravity and gauge?"* is replaced by *"at what spectral order does the admissible
 projection respond?"*. This is the **spectral stratification principle**.
 
-The sub-programme closes the dynamical stratification: it does not re-derive the gauge group
-(Note 3) or the metric (Note 2). It derives the *dynamics* of gauge and gravitational fields
-from the spectral structure of the single functional $S_\Pi[g, A]$ and establishes that, within
+The sub-programme takes the structure group and the base metric as supplied inputs: Note 3 identifies no
+gauge group, and Note 2 constructs no rank-four metric and establishes no coefficient value. It derives the
+Yang--Mills *dynamics*, and the coupled gauge--gravity system conditionally on matched coefficients, from the
+spectral structure of the single functional $S_\Pi[g, A]$ and establishes that, within
 a proper-time cutoff, their ultraviolet divergence degrees --- quadratic for gravity,
 logarithmic for gauge --- differ according to the Seeley--DeWitt order at which each sector
 enters. That contrast is scheme-dependent: the zeta-regularized determinant carries no power
@@ -67,6 +71,13 @@ Three conceptually distinct stages:
    independent renormalized matching data, so the ratio $G_N g_{\mathrm{YM}}^2$ is not an
    output. The derivations are Euclidean.
 
+The heat-kernel calculations are carried out on a Riemannian four-manifold with a **supplied** metric. Its
+reading as the emergent base of the emergent geometry sub-programme (Note 2) is conditional: under the
+spatial-limit hypothesis [H-L] and the open lifting hypothesis [H-lift], Q5b gives a rank-three co-metric, a
+rank-four Lorentzian form holds only for a supplied extension (Q11, Q6b), and no metric coefficient value is
+established. Relating the supplied metric to such a form needs a continuation that is not performed, and a
+Lorentzian counterpart of $S_\Pi$ requires an in-in construction that is open.
+
 ## Constituent Papers
 
 | # | Paper | Stage | Local path |
@@ -90,7 +101,7 @@ Q12 therefore remains located under `gauge-structure/`.)
 **Structural:**
 - $\Omega^{\mathrm{gauge}}_{\mu\nu} = F_{\mu\nu}$ on the admissible bundle (Q12).
 - Yang--Mills equations $D_\mu F^{a\mu\nu} = 0$ from the fixed-metric $\delta_A S_\Pi = 0$
-  (Q12 Theorem 1, given $G_\Pi$).
+  (Q12 Theorem 1, given $G_\Pi$ and a supplied base metric).
 - Conditional coupled Einstein--Yang--Mills system (Q13 Theorem), with
   $8\pi G_N = 1/(2 c_{\mathrm{EH}})$ and $c_F I_\rho = 1/(4 g_{\mathrm{YM}}^2)$.
 - $a_6$ spanning list of invariants, modulo integrations by parts and Bianchi identities
@@ -125,7 +136,7 @@ unaffected.
    any combination of $G_N$, $g_{\mathrm{YM}}$ and $\Lambda_{\mathrm{ren}}$ — in particular the
    ratio $G_N g_{\mathrm{YM}}^2$ — would be the natural way to recover predictive content that
    the spectral expansion alone does not provide. A possible non-linear completion of the joint
-   functional, and the Lorentzian continuation of the gauge sector, are open on the same footing.
+   functional, and the Lorentzian continuation of the geometric and gauge sectors, are open on the same footing.
 3. **Full coupled equations with matter.** The coupled system
    $G_{\mu\nu} = 8\pi G_N(T^{\mathrm{YM}}_{\mu\nu} + T^{\mathrm{ferm}}_{\mu\nu})$,
    $D_\mu F^{a\mu\nu} = J^{a\nu}$ with explicit fermionic matter from Note 6 (Q14) requires
