@@ -11,8 +11,9 @@ result as proved, structural, or open, and states the remaining open deliverable
 
 The spectral gravity sub-programme (Note 4) states, on a supplied Riemannian metric, the conditions under
 which the Einstein tensor is the dominant local response of the renormalized horizontal metric variation of
-$S_\Pi[g]$: the $a_2$ term of a proper-time cutoff, a non-zero Einstein coefficient fixed by renormalization
-matching, and small curvature relative to the renormalized higher-derivative scale.
+$S_\Pi[g]$: a non-zero Einstein coefficient, which is a renormalization matching datum, and small curvature
+relative to the renormalized higher-derivative scale. In a proper-time cutoff, the Einstein--Hilbert
+contribution arises from the $a_2$ coefficient.
 The gauge structure sub-programme (Note 3) constructs, for a compact structure group $G_\Pi$, the
 admissible principal bundle $P_{G_\Pi}(M, G_\Pi)$.
 
@@ -73,7 +74,8 @@ Three conceptually distinct stages:
 
 The heat-kernel calculations are carried out on a Riemannian four-manifold with a **supplied** metric. Its
 reading as the emergent base of the emergent geometry sub-programme (Note 2) is conditional: under the
-spatial-limit hypothesis [H-L] and the open lifting hypothesis [H-lift], Q5b gives a rank-three co-metric, a
+unestablished spatial-limit hypothesis [H-L] and the open lifting hypothesis [H-lift], Q5b gives a
+rank-three co-metric, a
 rank-four Lorentzian form holds only for a supplied extension (Q11, Q6b), and no metric coefficient value is
 established. Relating the supplied metric to such a form needs a continuation that is not performed, and a
 Lorentzian counterpart of $S_\Pi$ requires an in-in construction that is open.
