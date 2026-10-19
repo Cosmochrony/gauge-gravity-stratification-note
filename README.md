@@ -45,7 +45,8 @@ $$\underbrace{a_2 \;\to\; G_{\mu\nu}}_{\text{horizontal } \delta_g}
 \underbrace{a_6 \;\to\; \text{dimension-six invariants}}_{\text{spanning list only}}$$
 
 from the single functional
-$S_\Pi[g, A] = \tfrac{1}{2}\log\det' A_{g, A}$.
+$S_\Pi[g, A] = \tfrac{1}{2}\log\det' A_{g, A}$. The chain is an organising reading; its first entry holds under the matching
+conditions of Note 4.
 
 Three conceptually distinct stages:
 
