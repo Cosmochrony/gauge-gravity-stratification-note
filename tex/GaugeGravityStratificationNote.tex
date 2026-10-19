@@ -68,8 +68,8 @@
     Starting from the joint spectral entropy functional
     $\SPI[g,A] = \tfrac{1}{2}\log\det' A_{g,A}$, the sub-programme establishes two things.
     Q12 gives the Yang--Mills equations $D_\mu F^{a\mu\nu} = 0$ from the $a_4$ vertical variation
-    at fixed base metric, the gauge component $\Omega^{\mathrm{gauge}}_{\mu\nu} = F_{\mu\nu}$
-    being isolated from the total bundle curvature.
+    at a fixed, supplied Riemannian base metric, the gauge component
+    $\Omega^{\mathrm{gauge}}_{\mu\nu} = F_{\mu\nu}$ being isolated from the total bundle curvature.
     Q13 gives a \emph{conditional} Einstein--Yang--Mills system from the joint variation of a
     single matched renormalized local action: the metric variation of the same
     $\mathrm{tr}_\rho(F^2)$ term supplies the Yang--Mills energy--momentum tensor, and since
@@ -82,6 +82,9 @@
     integrations by parts and Bianchi identities, with matching coefficients.
     Statements about $\Lambda^4$, $\Lambda^2$ and $\log\Lambda$ behaviour belong specifically to a
     proper-time cutoff and are not scheme-independent; the derivations are Euclidean.
+    The base metric is supplied: its reading as the emergent base of the programme is conditional on the
+    spatial-limit and lifting hypotheses [H-L] and [H-lift] and on a supplied rank-four extension, and no metric
+    coefficient value is established.
     \emph{Interpretive status.} The stratification $a_2 \to \text{gravity}$,
     $a_4 \to \text{gauge}$ is offered as an organising reading, not a theorem.
   \end{abstract}
@@ -104,8 +107,10 @@
 
     \medskip
     \noindent\textit{Central question.}
-    The spectral gravity sub-programme (Note~4~\cite{Beau2026sgnote}) derives the Einstein tensor as the $a_2$
-    infrared-dominant response of the horizontal metric variation of $\SPI[g]$.
+    The spectral gravity sub-programme (Note~4~\cite{Beau2026sgnote}) states, on a supplied Riemannian metric, the
+    conditions under which the Einstein tensor is the dominant local response of the renormalized horizontal metric
+    variation of $\SPI[g]$: the $a_2$ term of a proper-time cutoff, a non-zero Einstein coefficient fixed by
+    renormalization matching, and small curvature relative to the renormalized higher-derivative scale.
     The gauge structure sub-programme (Note~3~\cite{Beau2026gsnote}) constructs the admissible
     principal bundle $P_{\Gpi}(M, \Gpi)$ for a compact structure group $\Gpi$.
     It does \emph{not} identify that group: its version~2.0 states that the sub-programme supplies
@@ -116,10 +121,10 @@
     connection, also produce Yang--Mills dynamics, and if so, at what spectral order?}
 
     \medskip
-    The answer is yes, and the order is $a_4$.
-    Gravity and gauge dynamics arise from the same functional by varying in orthogonal
-    directions --- horizontal (metric) and vertical (gauge connection) --- at different
-    Seeley--DeWitt orders.
+    On a supplied base metric and a supplied compact structure group, the answer is yes, and the order is $a_4$.
+    Gauge dynamics and, under the matching conditions of Note~4, the Einstein sector arise from the same
+    functional by varying in orthogonal directions --- horizontal (metric) and vertical (gauge connection) --- at
+    different Seeley--DeWitt orders.
     The conventional question ``what symmetry unifies gravity and gauge?'' is thereby
     replaced by:
     \[
@@ -128,18 +133,20 @@
     This is the spectral stratification principle.
 
     \medskip
-    The sub-programme does not derive the gauge group (Note~3) or the metric (Note~2).
-    It derives the \emph{dynamics} of gauge and gravitational fields from the spectral
-    structure of the single functional $\SPI[g,A]$, and establishes that, within a proper-time
+    The sub-programme takes the structure group and the base metric as supplied inputs: Note~3 identifies no gauge
+    group, and Note~2~\cite{Beau2026egnote} constructs no rank-four metric and establishes no coefficient value.
+    It derives the Yang--Mills \emph{dynamics}, and the coupled gauge--gravity system conditionally on matched
+    coefficients, from the spectral structure of the single functional $\SPI[g,A]$, and establishes that, within a
+    proper-time
     cutoff, their ultraviolet divergence degrees --- quadratic for gravity, logarithmic for
     gauge --- differ as a consequence of the Seeley--DeWitt order at which each sector enters.
     That contrast is scheme-dependent: the zeta-regularized determinant carries no power
     divergences at all.
 
     \begin{remark}[Scope: dynamics only]
-This sub-programme closes the \emph{dynamical} stratification: why $a_2$ gives gravity
-and $a_4$ gives Yang--Mills from the same functional.
-It does not re-derive the gauge group or the metric.
+This sub-programme concerns the \emph{dynamical} stratification: the Seeley--DeWitt orders at which the same
+functional carries the Einstein and Yang--Mills terms.
+It takes the gauge group and the base metric as supplied inputs.
 The coupled field equations with explicit fermionic matter belong to Note~6 and to the
 open deliverables.
     \end{remark}
@@ -147,8 +154,8 @@ open deliverables.
     \begin{remark}[Vocabulary note]
 Throughout this note the vocabulary is that of \emph{admissibility constraints}; no relaxation
 dynamics is invoked.
-The sub-programme works with the effective base manifold and gauge bundle already
-established in Notes~2--3; no new pre-geometric substrate dynamics is introduced.
+The sub-programme works with a supplied base metric and with the bundle that Note~3 constructs for a supplied
+compact group; no new pre-geometric substrate dynamics is introduced.
     \end{remark}
 
   \section{Position in the Cosmochrony Programme}
@@ -160,15 +167,18 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
 
     Inputs:
     \begin{itemize}
-      \item Spectral entropy functional $\SPI[g] = \tfrac{1}{2}\log\det' A_g$ and its $a_2$
-      horizontal metric variation $\to$ Einstein tensor (Note~4, Gravity~\cite{Beau2026h}).
+      \item Spectral entropy functional $\SPI[g] = \tfrac{1}{2}\log\det' A_g$ and the conditions under which its
+      renormalized horizontal metric variation is dominated by the Einstein tensor: the $a_2$ cutoff term, a
+      non-zero Einstein coefficient supplied by matching, and small curvature relative to the renormalized
+      higher-derivative scale (Note~4, Gravity~\cite{Beau2026h}).
       \item Admissible principal bundle $P_{\Gpi}(M, \Gpi)$ and gauge connection $A$
       (Note~3, Q6a~\cite{Beau2026q6a}).
       \item A compact structure group $\Gpi$, supplied rather than identified
       (Note~3~\cite{Beau2026gsnote}; see Section~\ref{sec:status}).
-      \item Effective four-dimensional base manifold (Note~2, Q5b--Q11); the heat-kernel
-      expansion is performed on its Euclidean section, the Lorentzian metric
-      $g^{\mu\nu} = 2\eta^{\mu\nu}$ being recovered only after a continuation.
+      \item A Riemannian four-manifold $(M,g)$ with a supplied metric, on which the heat-kernel expansion is
+      carried out (Q12~\cite{Beau2026q12}).
+      Its reading as the emergent base of Note~2~\cite{Beau2026egnote} is conditional on [H-L], [H-lift] and a
+      supplied rank-four extension (Section~\ref{sec:inputs}).
       \item Fixed-metric isolation of the gauge sector (Q12~\cite{Beau2026q12}, Lemma~1): under
       minimal coupling $a_2$ is independent of $A$, so the vertical variation at fixed metric
       isolates the Yang--Mills sector. Full horizontal--vertical decoupling does \emph{not} hold.
@@ -181,8 +191,8 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
       \item Note~6 (Fermionic Matter): Q13 is the direct predecessor of Q14~\cite{Beau2026q14};
       the $a_4$ structure
       provides the spectral scaffold for the projected Dirac operator.
-      \item Phenomenological applications: gravitational-wave phenomenology, once the
-      gauge sector has been continued to Lorentzian signature.
+      \item Phenomenological applications, including gravitational-wave phenomenology, once both the geometric
+      and the gauge sectors have been continued to Lorentzian signature (Section~\ref{sec:open-hyp}).
     \end{itemize}
 
   \section{Logical Chain of the Sub-Programme}
@@ -280,7 +290,8 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
       does not determine the finite renormalized couplings, which are matching data.
 
       \textit{Conditionalities} (§7).
-      The $a_4$ derivation of Yang--Mills is unconditional given any compact gauge group $\Gpi$.
+      The $a_4$ derivation of Yang--Mills is unconditional given any compact gauge group $\Gpi$ and a supplied
+      base metric.
       That is this sub-programme's own result, and nothing below touches it.
       No identification of $\Gpi$ with a specific compact group is available.
       O31~\cite{Beau2026a35} is a withdrawal notice: among the results it withdraws are the
@@ -353,6 +364,9 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
       convention; identification with the Lorentzian Einstein--Yang--Mills equations requires a
       continuation, including the relative sign between curvature and source and the positivity of
       the gauge energy density, which is not performed.
+      The continuation is open in the geometric sector as well: the base metric is supplied, and a
+      four-dimensional Lorentzian metric from the emergent geometry sub-programme requires a supplied rank-four
+      extension (Section~\ref{sec:inputs}).
 
       \begin{table}[ht]
         \centering
@@ -389,8 +403,10 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
     \begin{enumerate}
       \item \textbf{Spectral entropy $\SPI[g]$ and $a_2$ Einstein sector}
       (Note~4, Gravity~\cite{Beau2026h}):
-      the horizontal variation and the $a_2$ coefficient are established prerequisites;
-      Q12 builds on them by extending the functional to $\SPI[g,A]$.
+      Gravity separates the proper-time cutoff, which carries the $a_2$ Einstein term, from zeta
+      regularization, and states the conditions under which the Einstein tensor dominates the renormalized
+      horizontal variation; the finite Einstein coefficient, its sign and $\GN$ are matching data.
+      Q12 builds on this by extending the functional to $\SPI[g,A]$.
 
       \item \textbf{Admissible principal bundle and supplied structure group}
       (Note~3~\cite{Beau2026gsnote}, Q6a~\cite{Beau2026q6a}).
@@ -400,11 +416,16 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
       What Note~3 supplies is the bundle construction for a compact $\Gpi$, not the identity of
       $\Gpi$.
 
-      \item \textbf{Effective four-dimensional base manifold} (Note~2, Q5b--Q11):
-      the effective spacetime provides the base on which the operator $A_{g,A}$ is defined.
-      The heat-kernel expansion itself is carried out on the Euclidean section, where
-      $A_{g,A}$ is elliptic; the Lorentzian metric $g^{\mu\nu} = 2\eta^{\mu\nu}$ of Note~2 is
-      recovered only after a continuation, which is not performed here.
+      \item \textbf{Supplied base metric} (Q12~\cite{Beau2026q12}):
+      the operator $A_{g,A}$ is defined on a Riemannian four-manifold $(M,g)$ with a supplied metric, where it is
+      elliptic and the heat-kernel expansion is carried out.
+      Its reading as the emergent base of the emergent geometry sub-programme (Note~2~\cite{Beau2026egnote}) is
+      conditional.
+      Under the spatial-limit hypothesis [H-L] and the open lifting hypothesis [H-lift], Q5b~\cite{Beau2026q5b}
+      gives a rank-three co-metric; a rank-four Lorentzian form holds only for a supplied extension
+      (Q11~\cite{Beau2026q11}, Q6b~\cite{Beau2026q6b}), and no metric coefficient value is established.
+      Relating the supplied Riemannian metric to such a form needs a continuation that is not performed, and a
+      Lorentzian counterpart of $\SPI$ requires an in-in construction that is open~\cite{Beau2026i}.
 
       \item \textbf{Renormalized matching data} ($\GN$, $\gYM$, $\Lambda_{\mathrm{ren}}$, and the
       dimension-six coefficients): supplied from outside the spectral expansion, which fixes only
@@ -430,7 +451,7 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
         & Q13/GW phenomenology & S \\
         $a_6$ spanning list (coefficients undetermined) & Future precision tests & S \\
         Divergence-degree separation $a_2$ vs.\ $a_4$ & Structural reading & S \\
-        Spectral suggestion: fermions at a dedicated level & Note~6 (Q14) & S \\
+        Spectral suggestion: fermions at a dedicated level & Note~6 (Q14) & interpretive \\
         Identification of $\Gpi$ with a specific compact group & --- & not established \\
         \bottomrule
       \end{tabular}
@@ -509,9 +530,13 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
         Whether admissibility constrains any combination of them --- in particular the ratio
         $\GN\gYM^2$ --- is open.
 
-        \item \textit{Lorentzian continuation of the gauge sector.}
-        The derivations are Euclidean; the continuation, including the relative sign between
-        curvature and source and the positivity of the gauge energy density, is open.
+        \item \textit{Lorentzian continuation of the geometric and gauge sectors.}
+        The derivations are Euclidean, on a supplied Riemannian metric.
+        In the geometric sector, a four-dimensional Lorentzian metric requires a supplied rank-four extension of
+        the rank-three co-metric that Q5b gives under [H-L] and [H-lift], and a Lorentzian counterpart of $\SPI$
+        requires an in-in construction~\cite{Beau2026i}.
+        In the gauge sector, the continuation, including the relative sign between curvature and source and the
+        positivity of the gauge energy density, is open.
 
         \item \textit{Internal structure of a non-abelian sector.}
         The $a_4$ derivation holds for any compact $\Gpi$.
@@ -561,9 +586,10 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
   \section{Conclusion}
     \label{sec:conclusion}
 
-    The gauge--gravity stratification sub-programme establishes that gravity and Yang--Mills
-    gauge dynamics arise from the same admissible spectral functional $\SPI[g,A]$, separated
-    by geometric direction and Seeley--DeWitt order.
+    The gauge--gravity stratification sub-programme establishes, on a supplied base metric and a supplied compact
+    structure group, that Yang--Mills gauge dynamics and, under the matching conditions of Note~4, the Einstein
+    sector arise from the same admissible spectral functional $\SPI[g,A]$, separated by geometric direction and
+    Seeley--DeWitt order.
 
     The Yang--Mills equations follow from the $a_4$ vertical variation at fixed metric (Q12,
     structural given $\Gpi$).
@@ -576,6 +602,8 @@ established in Notes~2--3; no new pre-geometric substrate dynamics is introduced
     The $a_6$ sector is a spanning list modulo integrations by parts and Bianchi identities, with
     matching coefficients; no non-linear completion of the joint functional is asserted; and the
     derivations are Euclidean.
+    The reading of the supplied base metric as the emergent base of Note~2 is conditional on [H-L], [H-lift] and
+    a supplied rank-four extension.
 
     \emph{Interpretive outlook.} The spectral stratification $a_2 \to \text{gravity}$,
     $a_4 \to \text{gauge}$ is an organising reading rather than a theorem: a structural pattern
