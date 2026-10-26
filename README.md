@@ -1,4 +1,5 @@
-Local candidate 2.2; last deposited version 2.1.
+Version 2.2 was deposited on 2026-10-26 as [Zenodo record 23667590](https://zenodo.org/record/23667590)
+(concept DOI [10.5281/zenodo.20563349](https://doi.org/10.5281/zenodo.20563349)).
 
 This repository contains the source of the **Gauge–Gravity Stratification Presentation Note**
 Cosmochrony paper
