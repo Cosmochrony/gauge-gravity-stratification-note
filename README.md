@@ -158,7 +158,7 @@ bash compile.sh
 
 Produces `out/GaugeGravityStratificationNote.pdf`.
 
-## Candidate changes
+## Changes in version 2.2
 
 The admissible Heisenberg carrier, its associated Weil action and the supplied spinor doublet are distinct.
 Connection-dependent admissible interpretations retain Q6a's two unproved continuum hypotheses: a smooth
