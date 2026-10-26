@@ -18,11 +18,13 @@ relative to the renormalized higher-derivative scale. In a proper-time cutoff, t
 contribution arises from the $a_2$ coefficient.
 The gauge structure sub-programme (Note 3) constructs, for a compact structure group $G_\Pi$, the
 admissible principal bundle $P_{G_\Pi}(M, G_\Pi)$.
+Its interpretation as admissible fibre transport is conditional on Q6a's two unproved continuum
+hypotheses: a smooth effective fibre bundle and a differentiable spatial continuum, the latter open in Q5a.
 
 > Does the same functional $S_\Pi[g, A]$, extended to include the admissible gauge connection,
 > also produce Yang--Mills dynamics, and if so, at what spectral order?
 
-On a supplied base metric and a supplied compact structure group, the answer is **yes**, and the order is
+On supplied smooth bundle and connection data, a base metric and a compact structure group, the answer is **yes**, and the order is
 $a_4$. Gauge dynamics and, under the matching conditions of Note 4, the Einstein sector arise from the same
 functional by varying in orthogonal directions --- horizontal (metric) and vertical (gauge
 connection) --- at different Seeley--DeWitt orders. The classical question *"what symmetry
