@@ -1,3 +1,5 @@
+Local candidate 2.2; last deposited version 2.1.
+
 This repository contains the source of the **Gauge–Gravity Stratification Presentation Note**
 Cosmochrony paper
 *The Gauge–Gravity Stratification Sub-Programme (Presentation Note 8)*.
@@ -152,3 +154,9 @@ bash compile.sh
 ```
 
 Produces `out/GaugeGravityStratificationNote.pdf`.
+
+## Candidate changes
+
+The admissible Heisenberg carrier, its associated Weil action and the supplied spinor doublet are distinct.
+Connection-dependent admissible interpretations retain Q6a's two unproved continuum hypotheses: a smooth
+effective fibre bundle and a differentiable spatial continuum, the latter open in Q5a.
