@@ -5,5 +5,5 @@
   "main_tex": "tex/GaugeGravityStratificationNote.tex",
   "zenodo_id": 20563349,
   "doi": "10.5281/zenodo.20563349",
-  "notes": "Version 2.2: connection-dependent admissible interpretations inherit both unproved continuum hypotheses of Q6a, including the spatial continuum left open in Q5a."
+  "notes": "Version 2.3 aligns the note with Q6a 2.6. The note stated that the gauge structure sub-programme constructs the admissible principal bundle under Q6a's two continuum hypotheses. Q6a 2.6 shows that those hypotheses, a smooth effective fibre bundle and a differentiable spatial continuum, do not determine a connection. The note now takes the bundle for a supplied compact structure group and a supplied connection, and keeps the two hypotheses as conditions of the admissible reading. No other statement of the note is changed; the stratification results already take the gauge data as supplied."
 }

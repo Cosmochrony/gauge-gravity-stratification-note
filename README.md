@@ -17,10 +17,11 @@ which the Einstein tensor is the dominant local response of the renormalized hor
 $S_\Pi[g]$: a non-zero Einstein coefficient, which is a renormalization matching datum, and small curvature
 relative to the renormalized higher-derivative scale. In a proper-time cutoff, the Einstein--Hilbert
 contribution arises from the $a_2$ coefficient.
-The gauge structure sub-programme (Note 3) constructs, for a compact structure group $G_\Pi$, the
-admissible principal bundle $P_{G_\Pi}(M, G_\Pi)$.
+The gauge structure sub-programme (Note 3) takes the admissible principal bundle
+$P_{G_\Pi}(M, G_\Pi)$ for a supplied compact structure group $G_\Pi$ and a supplied connection.
 Its interpretation as admissible fibre transport is conditional on Q6a's two unproved continuum
 hypotheses: a smooth effective fibre bundle and a differentiable spatial continuum, the latter open in Q5a.
+Those hypotheses do not determine the connection.
 
 > Does the same functional $S_\Pi[g, A]$, extended to include the admissible gauge connection,
 > also produce Yang--Mills dynamics, and if so, at what spectral order?
